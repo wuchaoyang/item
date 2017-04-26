@@ -11,7 +11,7 @@ window.onload = function ()
             oinput[i].checked && n++
         }
         input[0].checked = n == input.length - 1;
-        quan.innerHTML = oInput[0].checked ? "全不选" : "全选"
+        quan.innerHTML = input[0].checked ? "全不选" : "全选"
     };
     //全选/全不选
     input[0].onclick = function () {
@@ -23,7 +23,7 @@ window.onload = function ()
     //反选
     fan.onclick = function () {
         for (var i = 1; i < input.length; i++) {
-            input[i].checked = !oInput[i].checked
+            input[i].checked = !input[i].checked
         }
         isCheckAll()
     };
