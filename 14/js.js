@@ -8,7 +8,7 @@ window.onload = function ()
     var quan = document.getElementById("quan");
     var isCheckAll = function () {
         for (var i = 1, n = 0; i < input.length; i++) {
-            oinput[i].checked && n++
+            input[i].checked && n++
         }
         input[0].checked = n == input.length - 1;
         quan.innerHTML = input[0].checked ? "全不选" : "全选"
