@@ -1,0 +1,1 @@
+function auto(n,t){document.write(n+t)}function soun(n,t){document.write(n+t)}

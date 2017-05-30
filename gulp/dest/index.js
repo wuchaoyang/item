@@ -1,0 +1,1 @@
+function auto(t,n){document.write(t+n)}
